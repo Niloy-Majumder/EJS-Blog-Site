@@ -1,0 +1,25 @@
+{
+  "name": "ejs-blog-site",
+  "version": "1.0.0",
+  "description": "Blog site with EJS and Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Niloy Majumder",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niloy-Majumder/EJS-Blog-Site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Niloy-Majumder/EJS-Blog-Site/issues"
+  },
+  "homepage": "https://github.com/Niloy-Majumder/EJS-Blog-Site#readme"
+}
