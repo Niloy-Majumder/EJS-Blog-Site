@@ -1,3 +1,12 @@
+<%- include('partials/header'); %>
 <h1>Home</h1>
 
 <p><%= homecontent%></p>
+
+<% for (let index = 0; index < post.length; index++) { %>
+<% console.log(post[index].Title)%>
+<h1> <%= post[index].Title%></h1>
+<p><%= post[index].Body %></p>
+<% } %>
+
+<%- include('partials/footer'); %>
